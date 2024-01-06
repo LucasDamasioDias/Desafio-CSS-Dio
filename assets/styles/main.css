@@ -1,0 +1,274 @@
+﻿body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100vw;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #31a8dd;
+    border-bottom: 2px solid #31a8dd;
+    margin-top: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+    background-color: #08171e;
+}
+
+.banner_topo {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: -;
+    width: 100vw;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.logo {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 214px;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 50px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-top: -20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+    background-color: #00000099, #31A8DD00;
+}
+
+.banner-content h1 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 510px;
+    margin-top: -15px;
+}
+
+.banner-content button {
+    display: flex;
+    width: 326px;
+    padding: 19px 91px;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    box-sizing: border-box;
+    border: 2px solid #3BA1CD;
+    color: #31A8DD;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    background: transparent;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-bottom:60px;
+ }
+
+
+#course-content {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+#course-content > h2 {
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+}
+
+#course-content > p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space:pre-line;
+    margin-top: -20px;
+}
+
+.module {
+    box-sizing: border-box;
+    display: flex;
+    width: 535px;
+    padding: 16px 127px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.module span {
+    color: #33A8DB;
+}
+
+
+#transform-world {
+    background: transparent;
+    border-top: 1px solid #33A8DB;
+    border-right: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    padding: 0;
+    margin-bottom: 0;
+    height: 400px;
+    background: url("../images/woman-code.png") fixed  center/contain no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+#transform-world > p {
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    white-space: pre-line;
+    width: 300px;
+    height: 363px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 150px;
+    text-align: left; 
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    width: 100vw;
+    height: 900px;
+    background: #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#professional-challenges > h2 {
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+    white-space: pre-line;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#professional-challenges > p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: pre-line;
+    margin-bottom: 30px;
+}
+
+.rodape {
+    width: 100vw;
+    height: 170px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #08171e;
+}
